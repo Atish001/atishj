@@ -1,0 +1,101 @@
+Reference type:-
+*****************
+
+var obj = {name: "server",age:25}
+
+undefined
+
+var obj1=obj
+
+undefined
+
+obj1
+
+Object {name: "server", age: 25}
+
+obj1.name
+
+"server"
+
+obj1.age
+
+25
+
+obj1.name="client"
+
+"client"
+
+obj1
+
+Object {name: "client", age: 25}
+
+obj
+
+Object {name: "client", age: 25}
+
+
+adding a new property:-
+***********************
+obj1.hobby="cricket"
+
+"cricket"
+
+obj1
+
+Object {name: "client", age: 25, hobby: "cricket"}
+
+obj.contact=12345
+
+12345
+
+obj
+
+Object {name: "client", age: 25, hobby: "cricket", contact: 12345}
+
+
+deleting a property:-
+*************************
+delete obj.contact
+
+true
+
+obj
+
+Object {name: "client", age: 25, hobby: "cricket"}
+
+
+************************************************************************
+primitive type:-
+****************
+
+var a=10
+
+undefined
+
+var b =a
+
+undefined
+
+b
+
+10
+
+b=6
+
+6
+
+a
+
+10
+
+b
+
+6
+
+var c =a+b
+
+undefined
+
+c
+
+16
